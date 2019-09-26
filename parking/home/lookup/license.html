@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>智慧停车</title>
-		<link rel="stylesheet" href="../layui/layui-v2.4.5/layui/css/layui.css">
-		<script src="../chajian/jquery-3.2.1.min.js"></script>
-		<script src="../layui/layui-v2.4.5/layui/layui.js"></script>
+		<link rel="stylesheet" href="../../../layui/layui-v2.4.5/layui/css/layui.css">
+		<script src="../../../chajian/jquery-3.2.1.min.js"></script>
+		<script src="../../../layui/layui-v2.4.5/layui/layui.js"></script>
 		<script>
 			var num = 1/window.devicePixelRatio;
 	        document.write('<meta name="viewport" content="width=device-width,initial-scale='+ num +'">');
@@ -15,19 +15,36 @@
 		<link rel="stylesheet" href="../../css/license.css"/>
 	</head>
 	<body>
-		<div class="layui-container">
-			<div class="layui-col-xs">
-				<div class="layui-row">
-					<span>我爱你</span>
-					
+
+		<div class="box">	
+										<!--头部heade-->
+			<div class="layui-header header header-doc">
+				<ul class="layui-nav">
+					<li class="layui-nav-item parking">停车缴费</li>
+					<li class="layui-nav-item  close"><i class="layui-icon">&#x1007;</i></li>
+					<li class="layui-nav-item  close">关闭</li>
+				</ul>		
+			</div>
+										<!--中部内容-->
+			<div class="layui-container ">
+				<div class="layui-row row-one">
+					<span class="zh">智慧停车<i class="layui-icon">&#xe65b;</i></span>
+					<div class="input"></div>
 				</div>
 			</div>
+			
+			
 		</div>
 	</body>
 	<script>
 	    console.log(
-		        document.documentElement.clientWidth
-		    );
+		    document.documentElement.clientWidth
+		);
+	    $(document).ready(function(){
+			$(function(){
+			
+			})
+		})
 	</script>
 
 </html>

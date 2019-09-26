@@ -3,14 +3,52 @@ html {
 }
 html,
 body {
-  width: 100%;
   margin: 0;
 }
-.layui-col-xs {
-  background: red;
-  height: 4rem;
-  width: 100%;
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding: 3% 0;
 }
-.layui-col-xs span {
-  font-size: .8rem;
+.layui-nav {
+  background: none;
+  padding: 3%;
+}
+.layui-nav .layui-nav-item {
+  line-height: 0;
+}
+.header {
+  width: 100%;
+  height: auto;
+  padding: 3% 0;
+  background: #007DDB;
+  margin-bottom: 10% ;
+}
+.parking {
+  font-size: 0.8rem;
+  color: #fff;
+}
+.close {
+  font-size: 0.7rem;
+  color: #fff;
+  float: right;
+}
+.close i {
+  font-size: 0.9rem;
+  margin-left: .2rem ;
+}
+.layui-container {
+  height: 20rem;
+  background: #009F95;
+  width: 100%;
+  padding: 3%;
+}
+.zh {
+  font-size: 1rem;
+  color: #fff;
+}
+.zh i {
+  font-size: 1rem;
+  color: #fff;
 }
