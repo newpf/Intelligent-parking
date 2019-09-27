@@ -1,5 +1,7 @@
 html {
   font-size: 26px;
+  background: url(../img/bg.jpg) repeat-y;
+  background-size: 100% 100% ;
 }
 html,
 body {
@@ -26,7 +28,7 @@ ul {
   margin-bottom: 10% ;
 }
 .parking {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #fff;
 }
 .close {
@@ -35,7 +37,7 @@ ul {
   float: right;
 }
 .close i {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-left: .2rem ;
 }
 .layui-container {
@@ -45,10 +47,37 @@ ul {
   padding: 3%;
 }
 .zh {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #fff;
 }
 .zh i {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #fff;
+}
+.comm {
+  display: block;
+  margin: 5% auto;
+}
+.input {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.input input {
+  width: 2rem;
+  height: 2rem;
+  margin: 10% 0;
+  border: 0rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.layui-btn {
+  font-size: 1rem;
+  display: block;
+  margin: 0 auto;
+  border: 0.05rem solid #C9C9C9;
+  height: auto;
+  padding: 3% 13%;
+  border-radius: 1rem;
 }
